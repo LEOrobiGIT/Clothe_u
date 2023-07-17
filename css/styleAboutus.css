@@ -1,0 +1,8 @@
+section#prova {
+    background-size: cover;
+    background-position: left;
+    padding-top: 200px;
+    background-image: url('./images/red-and-white-air-jordan-1-shoe-on-concrete-floor.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}

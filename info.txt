@@ -1,0 +1,2 @@
+1)controllare config.php per il path url e fisico e per i dati riguardanti il database.
+2) index.php carica tutte le sezioni 

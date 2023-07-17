@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: column;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+input#email {
+    width: 40%;
+}
+input#password {
+    width: 40%;
+}
+input.btn.btn-primary.right {
+    width: fit-content;
+    font-size: 2rem;
+    /* margin: 10px; */
+    margin-top: 40px;
+    margin-left: 200px;
+}
+form.mb-4 {
+    display: flex;
+    flex-direction: column;
+}
+input#email {
+    font-size: 1.5rem;
+}
+input#password {
+    font-size: 1.5rem;
+}
+.errore {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #d56969;
+}

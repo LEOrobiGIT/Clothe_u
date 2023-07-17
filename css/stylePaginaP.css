@@ -1,0 +1,309 @@
+.sproduct{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*
+.sproduct .sinistra .immagine img{
+   width: 100%;
+   margin-top: 50px;
+}*/
+
+.sproduct .sinistra{
+    width: 50%;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.sproduct .right{ 
+    
+    
+    margin-top: 30px;
+    font-size: 20px;
+    width: 40%;
+    margin-left: 70px;
+}
+.sproduct .right .descrizione d{
+    width:550px;
+    word-wrap: break-word;
+    
+}
+/*
+.taglia{
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    width: 70%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.right .container{
+    display: flex;
+}
+.numero {
+    border: rgb(155, 77, 77) solid 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 80px;
+}
+.numeroattivo{
+    border: rgb(85, 39, 39) solid 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 7px;
+    background-color: rgb(155, 77, 77);
+    color: white;
+    width: 80px;
+}*/
+/*
+.container{
+    display: flex;
+}
+.taglia option{
+    width: 70px;
+    font-size: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    border:rgb(206, 142, 142) solid 1px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+  }
+.taglia{
+    border: none;
+    overflow: hidden;
+    outline: none;
+    
+  }*/
+
+.taglia {
+    /* margin-left: 30px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 90%;
+    grid-gap: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.numero{
+    border: rgb(211, 132, 132) solid 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 80px;
+}
+.numeroattivo{
+    border: rgb(85, 39, 39) solid 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 7px;
+    background-color: rgb(155, 77, 77);
+    color: white;
+    width: 80px;
+}
+
+.numeroscarpa{
+    border: rgb(211, 132, 132) solid 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 80px;
+}
+
+.quantita input  {
+    margin-left: 20px;
+    
+    width: 40px;
+}
+.btnshopping {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.btnshopping .btnwish{
+    margin-right: 10px;
+    height: 50px;
+    border: 2px rgb(31, 31, 250) solid;
+    background-color: rgb(78, 125, 255);
+    color: white;
+    border-radius: 30px;
+    width: 220px;
+}
+.btnshopping .btncarrello {
+    height: 50px;
+    background-color: rgb(216, 84, 84);
+    color: white;
+    border-radius: 30px;
+    width: 220px;
+    margin: 20px;
+    align-self: center;
+}
+.periodo{
+    display: flex;
+    flex-direction: column;
+}
+.btncarrello{
+    margin-top: 5%;
+}
+.small-img {
+    width: 100%;
+}
+.small-img-group {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.contenitoreimmagini {
+    /* max-height: 0px; */
+    height: fit-content;
+}
+.immagine{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.indirizzo {
+    color: #9d9d9d;
+}
+.nomep {
+    font-size: 3rem;
+}
+.marca {
+    font-size: 2rem;
+    color: #9d9d9d;
+}
+.descrizione {
+    margin-top: 15px;
+    font-size: 2rem;
+}
+.d {
+    font-size: 1.8rem;
+}
+img#MainImg {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.costo{
+    font-weight: 900;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.prezzo {
+    display: flex;
+}
+.container1 {
+    margin-top: 6%;
+}
+.messaggio {
+    color: #c99c7c;
+    display: flex;
+    margin-bottom: 25px;
+}
+.dettagli {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.noleggio-inizio {
+    margin-top: 15px;
+}
+.noleggio-fine {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.scritta {
+    margin-top: 10px;
+    color: #787878;
+}
+input#fine {
+    margin-left: 20px;
+}
+input#inizio {
+    margin-left: 6px;
+}
+.btnshopping .btndisponibilita{
+    height: 50px;
+    background-color: rgb(216, 84, 84);
+    color: white;
+    border-radius: 30px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 20px;
+}
+.immagine {
+    margin-bottom: 20px;
+}
+.dettagli2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    display: none;
+  }
+  .descrizione2 {
+    margin-top: 15px;
+    font-size: 2rem;
+    display: none;
+  }
+  
+
+
+
+@media (max-width: 991px){
+  .sproduct {
+      padding: 2rem;
+      flex-direction: column;
+  } 
+}
+
+@media (max-width: 768px) {
+    
+    .sproduct .sinistra {
+      width: 100%;
+      margin-right: 30px;
+      margin-top: 40px;
+  }
+  .dettagli {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    display: none;
+  }
+  .descrizione {
+    margin-top: 15px;
+    font-size: 2rem;
+    display: none;
+  }
+  .sproduct .right {
+    margin-left: 0px; 
+    margin-top: 30px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .dettagli2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    display: flex;
+  }
+  .descrizione2 {
+    margin-top: 15px;
+    font-size: 2rem;
+    display:flex;
+  }
+  
+  }
